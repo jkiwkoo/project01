@@ -9,11 +9,7 @@ class Book {
 }
 
 //본부 데이터
-const myBook = [
-    new Book('book1', 'all'),
-    new Book('book2', 'all'),
-    new Book('book3', 'all'),
-];
+const myBook = [new Book('book1', 'all'), new Book('book2', 'all'), new Book('book3', 'all')];
 //
 class It extends Book {
     constructor(name, type, level) {

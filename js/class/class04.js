@@ -20,6 +20,5 @@ class NumPoly extends React {
         return this.width * this.height * this.num;
     }
 }
-
-const myPoly = new NumPoly(100, 300, 3);
+myPoly = new NumPoly(100, 300, 3);
 console.log(myPoly.action());

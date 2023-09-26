@@ -8,7 +8,7 @@ class Book {
     }
 }
 
-//본부 데이터
+//본부 데이터를 가져와서 새로운 것을 선언하기 -> class It
 const myBook = [new Book('book1', 'all'), new Book('book2', 'all'), new Book('book3', 'all')];
 //
 class It extends Book {
@@ -20,7 +20,7 @@ class It extends Book {
         document.write(`<p>${this.name} - ${this.type} - ${this.level}</p>`);
     }
 }
-// IT 데이터 만들기
+// class It 데이터 만들기
 const myIt = [
     new It('html', '인터넷', 1),
     new It('javascript', '개발', 2),
